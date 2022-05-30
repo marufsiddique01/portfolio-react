@@ -14,7 +14,7 @@ const About = () => {
           <div></div>
         </div>
 
-        <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4 text-white'>
+        <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4  text-white'>
           <div className='sm:text-right text-4xl font-bold  '>
             <p>
               Hi, I am Maruf. <br /> Nice to meet you. Please look around.
@@ -22,7 +22,7 @@ const About = () => {
           </div>
           <div>
             <p>
-              I have a background in business and a passion for learning new technologies.I have a background in business and a passion for learning new technologies.I have a background in business and a passion for learning new technologies.I have a background in business and a passion for learning new technologies.I have a background in business and a passion for learning new technologies.I have a background in business and a passion for learning new technologies.I have a background in business and a passion for learning new technologies.I have a background in business and a passion for learning new technologies.I have a background in business and a passion for learning new technologies.
+              I have a background in business and a passion for learning new technologies.I have a background in business and a passion for learning new technologies.I have a background in business and a passion for learning new technologies.I have a background in business and a passion for learning new technologies.I have a background in business and a passion for learning new technologies.I have a background in business and a passion for learning new technologies.I have a background in business and a passion for learning new technologies.I have a background in business and a passion for learning new technologies.
             </p>
           </div>
 
