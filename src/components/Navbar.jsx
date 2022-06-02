@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 import { Link } from 'react-scroll'
 
 
-import { FaBars, FaTimes, FaGithub, FaFacebook, FaLinkedin } from 'react-icons/fa'
+import { FaBars, FaTimes, FaGithub, FaFacebook, FaLinkedin, FaInstagram } from 'react-icons/fa'
 import { HiOutlineMail } from 'react-icons/hi'
 import { BsFillPersonLinesFill } from 'react-icons/bs'
 
@@ -27,7 +27,7 @@ const Navbar = () => {
 
       <ul className='hidden md:flex text-white '>
         <li>
-          <Link to=" home" smooth={true} duration={500}>
+          <Link to="home" smooth={true} duration={500}>
             Home
           </Link>
         </li>
@@ -89,27 +89,32 @@ const Navbar = () => {
       <div className='hidden lg:flex fixed flex-col top-[35%] left-0 text-white'>
         <ul>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-700'>
-            <a href='/' className='flex justify-between items-center w-full text-grey-300'>
+            <a href='https://www.linkedin.com/in/marufsiddique01/' target="_blank" className='flex justify-between items-center w-full text-grey-300' rel="noreferrer">
               Linkedin <FaLinkedin size={30} />
             </a>
           </li>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#c05f5f]'>
-            <a href='/' className='flex justify-between items-center w-full text-grey-300'>
+            <a href='mailto:marufsiddique71@gmail.com' target="_blank" className='flex justify-between items-center w-full text-grey-300' rel="noreferrer">
               Email <HiOutlineMail size={30} />
             </a>
           </li>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
-            <a href='/' className='flex justify-between items-center w-full text-grey-300'>
+            <a href='https://github.com/marufsiddique01' target="_blank" className='flex justify-between items-center w-full text-grey-300' rel="noreferrer">
               Github <FaGithub size={30} />
             </a>
           </li>
+          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#fb3958]'>
+            <a href='https://www.instagram.com/marufsiddique01/' target="_blank" className='flex justify-between items-center w-full text-grey-300' rel="noreferrer">
+              Instagram <FaInstagram size={30} />
+            </a>
+          </li>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-500'>
-            <a href='/' className='flex justify-between items-center w-full text-grey-300'>
+            <a href='https://www.facebook.com/marufsiddique01/' target="_blank" className='flex justify-between items-center w-full text-grey-300' rel="noreferrer">
               Facebook <FaFacebook size={30} />
             </a>
           </li>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#26b84a]'>
-            <a href='/' className='flex justify-between items-center w-full text-grey-300'>
+            <a href='/' target="_blank" className='flex justify-between items-center w-full text-grey-300'>
               Resume <BsFillPersonLinesFill size={30} />
             </a>
           </li>

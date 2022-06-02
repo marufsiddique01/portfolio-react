@@ -3,11 +3,11 @@ import { HiArrowNarrowRight } from 'react-icons/hi'
 
 const Home = () => {
   return (
-    <div className='w-full h-screen bg-[#0a192f]'>
+    <div name='home' className='w-full h-screen bg-[#0a192f]'>
       {/* container */}
 
       <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
-        <p className='text-pink-600'>Hi, my name is</p>
+        <p className='text-[#ff5757] text-2xl'>Hi, my name is</p>
         <h1 className='text-4xl sm:text-6xl font-bold text-[#ccd6f6]'>Maruf Siddique</h1>
         <h2 className='text-2xl sm:text-5xl font-bold text-[#8892b0]'>I am a System Integration Expert and Analyst.</h2>
         <p className='text-[#8892b0] py-4 max-w-[700px]'>
@@ -26,8 +26,8 @@ const Home = () => {
           flex 
           flex-row 
           items-center
-           hover:bg-pink-600
-            hover:border-pink-600
+           hover:bg-[#ff5757]
+            hover:border-[#ff5757]
             '
           >
             View Works
