@@ -21,7 +21,7 @@ const Navbar = () => {
     <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f]'>
       {/* logo of my self */}
       <div>
-        <img src={Logo} alt='Maruf Siddique' style={{ width: "160px" }} />
+        <img src={Logo} alt='Maruf Siddique' style={{ width: "120px", padding: "5px" }} />
       </div>
       {/* navbar menus */}
 
