@@ -8,7 +8,7 @@ const Home = () => {
       {/* container */}
 
       <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
-        <p className="text-[#ff5757] text-2xl">Hi, my name is</p>
+        <p className="text-[#ff5757] text-2xl">Hey there, I'm</p>
         <h1 className="text-4xl sm:text-6xl font-bold text-[#ccd6f6]">
           Maruf Siddique
         </h1>
@@ -16,25 +16,43 @@ const Home = () => {
           I Design, Develop, and Analyze
         </h2>
         <p className="text-[#8892b0] py-4 max-w-[700px]">
-          A Solution‑driven and experienced individual with multi‑dimensional
-          expertise with experience in analyzing requirements and developing
-          project structures and architectures to boost the relationship and
-          connections between the company and clients. Seeking opportunities to
-          use my analytical, management, and development skills together to
-          create cost‑effective solutions that improve workflow efficiencies.
+          I am a solution-driven and experienced professional with a diverse
+          skill set, proficient in analyzing requirements and developing project
+          structures and architectures to enhance relationships and connections
+          between companies and clients. <br />
+          Currently working as a <strong>Software Engineer</strong> at
+          <a
+            href="https://www.sun21.co.jp/en/"
+            target="_blank"
+            rel="noreferrer"
+            className="transition-colors hover:font-bold hover:border-b-2 hover:border-b-gray-300 font-medium"
+          >
+            <strong> SUN Co., Ltd.</strong>
+          </a>
+          <br />
+          <span className="mt-10">
+            I have over 3.5 years of experience in designing and developing
+            scalable software. Throughout this time, I've worked on a variety of
+            projects in areas such as{" "}
+            <b className="italic">
+              E-government, Blog, EdTech, and
+              HealthTech
+            </b>
+            .
+          </span>
         </p>
         <div>
-          <button
-            href=""
-            className="text-white group border-2 px-6 py-3 my-2 flex flex-row items-center hover:bg-[#ff5757] hover:border-[#ff5757]"
-          >
-            <Link to="work" smooth={true} duration={500}>
-              View Works
-            </Link>
-            <span className="group-hover:rotate-90 duration-300">
-              <HiArrowNarrowRight className="ml-3" />
-            </span>
-          </button>
+          <Link to="contact" smooth={true} duration={500}>
+            <button
+              href=""
+              className="text-white group border-2 px-6 py-3 my-2 flex flex-row items-center hover:bg-[#ff5757] hover:border-[#ff5757]"
+            >
+              Contact Me
+              <span className="group-hover:rotate-90 duration-300">
+                <HiArrowNarrowRight className="ml-3" />
+              </span>
+            </button>
+          </Link>
         </div>
       </div>
     </div>

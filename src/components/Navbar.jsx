@@ -32,14 +32,14 @@ const Navbar = () => {
           </Link>
         </li>
         <li>
-          <Link to="about" smooth={true} duration={500}>
-            About
-          </Link>
-        </li>
-        <li>
           {" "}
           <Link to="skills" smooth={true} duration={500}>
             Skills
+          </Link>
+        </li>
+        <li>
+          <Link to="about" smooth={true} duration={500}>
+            About
           </Link>
         </li>
         <li>
@@ -97,7 +97,6 @@ const Navbar = () => {
         </li>
       </ul>
 
-      {/* social icons */}
       <div className="hidden lg:flex fixed flex-col top-[35%] left-0 text-white">
         <ul>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-700">
@@ -130,16 +129,6 @@ const Navbar = () => {
               Github <FaGithub size={30} />
             </a>
           </li>
-          {/* <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#fb3958]'>
-            <a href='https://www.instagram.com/marufsiddique01/' target="_blank" className='flex justify-between items-center w-full text-grey-300' rel="noreferrer">
-              Instagram <FaInstagram size={30} />
-            </a>
-          </li> */}
-          {/* <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-500'>
-            <a href='https://www.facebook.com/marufsiddique01/' target='_blank' className='flex justify-between items-center w-full text-grey-300' rel='noreferrer'>
-              Facebook <FaFacebook size={30} />
-            </a>
-          </li> */}
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#26b84a]">
             <a
               href="../assets/MarufSiddiqueResume.pdf"
